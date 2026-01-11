@@ -5,15 +5,15 @@ void setup () {
 }
 
 void loop () {
-  digitalWrite(13, HIGH); 
-  digitalWrite(12, LOW); 
-  digitalWrite(11,LOW); 
-  delay(20000);
-  digitalWrite(13, LOW);
-  digitalWrite(12, HIGH);
+  digitalWrite(13, HIGH); //Green turns on
+  digitalWrite(12, LOW); //Yellow is off
+  digitalWrite(11,LOW); //Red is off
+  delay(20000); 
+  digitalWrite(13, LOW); //Green turns off
+  digitalWrite(12, HIGH); //Yellow turns on
   delay(5000);
-  digitalWrite(11, HIGH);
-  digitalWrite(12, LOW);
+  digitalWrite(11, HIGH); //Red turn on
+  digitalWrite(12, LOW); //Yellow turns off
   delay(20000);
 }
 //This is my first Project :D
