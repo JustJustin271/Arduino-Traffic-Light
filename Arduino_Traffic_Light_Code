@@ -1,0 +1,22 @@
+void setup () {
+  pinMode(13, OUTPUT); //Green
+  pinMode(12,OUTPUT); //Yellow
+  pinMode(11,OUTPUT); //Red
+}
+
+void loop () {
+  digitalWrite(13, HIGH); 
+  digitalWrite(12, LOW); 
+  digitalWrite(11,LOW); 
+  delay(20000);
+  digitalWrite(13, LOW);
+  digitalWrite(12, HIGH);
+  delay(5000);
+  digitalWrite(11, HIGH);
+  digitalWrite(12, LOW);
+  delay(20000);
+}
+//This is my first Project :D
+//Have a great day
+//January 11th, 2026
+//Breadboard and Elegoo Uno R3
